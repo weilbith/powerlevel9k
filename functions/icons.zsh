@@ -260,17 +260,17 @@ case $POWERLEVEL9K_MODE in
       CARRIAGE_RETURN_ICON           $'\u21B5'              # ↵
       ROOT_ICON                      $'\uE614 '             # 
       RUBY_ICON                      $'\uF219 '             # 
-      AWS_ICON                       $'\uF270'              # 
+      AWS_ICON                       $'\ue7ad'              # 
       AWS_EB_ICON                    $'\UF1BD  '            # 
       BACKGROUND_JOBS_ICON           $'\uF013 '             # 
       TEST_ICON                      $'\uF188'              # 
       TODO_ICON                      $'\uF133'              # 
       BATTERY_ICON                   $'\UF240 '             # 
       DISK_ICON                      $'\uF0A0'              # 
-      OK_ICON                        $'\uF00C'              # 
-      FAIL_ICON                      $'\uF00D'              # 
+      OK_ICON                        $'\u2714'              # ✔
+      FAIL_ICON                      $'\u274C'              # ❌
       SYMFONY_ICON                   $'\uE757'              # 
-      NODE_ICON                      $'\uE617 '             # 
+      NODE_ICON                      $'\ue718 '             # 
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\U2500'     # ╭─
       MULTILINE_NEWLINE_PROMPT_PREFIX  $'\u251C'$'\U2500'   # ├─
       MULTILINE_LAST_PROMPT_PREFIX   $'\u2570'$'\U2500 '    # ╰─
@@ -288,6 +288,7 @@ case $POWERLEVEL9K_MODE in
       SWAP_ICON                      $'\uF464'              # 
       RAM_ICON                       $'\uF0E4'              # 
       SERVER_ICON                    $'\uF0AE'              # 
+      DOCKER_ICON                    $'\ue7b0'
       VCS_UNTRACKED_ICON             $'\uF059'              # 
       VCS_UNSTAGED_ICON              $'\uF06A'              # 
       VCS_STAGED_ICON                $'\uF055'              # 
