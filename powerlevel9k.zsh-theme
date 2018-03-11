@@ -1635,13 +1635,13 @@ $(print_icon 'MULTILINE_LAST_PROMPT_PREFIX')'
       RPROMPT_SUFFIX=''
     fi
   else
-    PROMPT='%f%b%k$(build_left_prompt)'
+    PROMPT='%f%b%k%B$(build_left_prompt)%b'
     RPROMPT_PREFIX=''
     RPROMPT_SUFFIX=''
   fi
 
   if [[ "$POWERLEVEL9K_DISABLE_RPROMPT" != true ]]; then
-    RPROMPT='$RPROMPT_PREFIX%f%b%k$(build_right_prompt)%{$reset_color%}$RPROMPT_SUFFIX'
+    RPROMPT='$RPROMPT_PREFIX%f%b%k%B$(build_right_prompt)%b%{$reset_color%}$RPROMPT_SUFFIX'
   fi
 NEWLINE='
 '
